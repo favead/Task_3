@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AaVag7mBiRNHXOJWNe4i2y75piE+htDu9QTLaGKSdYc3MyxJuKwTXAXKeHwrQIcX2bUb4TWbZ9e7pMoZtoz3YA==",
+  "dgSpecHash": "qWDF6WjdlmlvKrBJfRgzoN7WAJqh0jZ19VyFhmSzPiLFtm7WXtPzoiGXjkAKHE4cBsEyS3C1u0F9fVGCJqStIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Polzovatel\\Desktop\\task_3\\Task_3\\task_3.csproj",
+  "projectFilePath": "C:\\Users\\Polzovatel\\Desktop\\task_3\\task_3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Polzovatel\\.nuget\\packages\\consoletables\\2.4.2\\consoletables.2.4.2.nupkg.sha512",
     "C:\\Users\\Polzovatel\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
