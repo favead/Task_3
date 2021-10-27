@@ -6,7 +6,13 @@ class Program
     static void Main(string[] args)
     {
         Menu menu = new Menu();
-        string[] param = Environment.GetCommandLineArgs();
+        string[] param = new string[Environment.GetCommandLineArgs().Length];
+
+        for (int i = 0; i < Environment.GetCommandLineArgs().Length; i++)
+        {
+            param[i] = Environment.GetCommandLineArgs()[i + 1];
+        }
+
         if (
             param.Length > 1 && param.Length % 2 == 0 ||
            !(param.Distinct().Count() == param.Length) ||
