@@ -15,7 +15,9 @@ class Program
 
         if (
              param.Length % 2 == 0 ||
-             !(param.Distinct().Count() == param.Length))
+             !(param.Distinct().Count() == param.Length) ||
+             param.Length < 3
+            )
         {
             Console.WriteLine("Incorrect data entry! Odd number of lines required and is at least 3 and be unique ");
         }
