@@ -8,7 +8,7 @@ class Program
         Menu menu = new Menu();
         string[] param = new string[Environment.GetCommandLineArgs().Length];
 
-        for (int i = 0; i < Environment.GetCommandLineArgs().Length; i++)
+        for (int i = 0; i < Environment.GetCommandLineArgs().Length - 1; i++)
         {
             param[i] = Environment.GetCommandLineArgs()[i + 1];
         }
