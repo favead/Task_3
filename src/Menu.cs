@@ -106,7 +106,7 @@ namespace Game_Menu
             }
             else
             {
-                Console.WriteLine("Пожалуйста, выберите один из вариантов предложенных в меню");
+                Console.WriteLine("Please select one of the options offered in the menu");
                 return PrintMenu(param);
             }
         }
